@@ -5,7 +5,7 @@ const playnote = event =>{
     const button = event.target;
     const note = button.dataset.note;
     const audioId = `audio${note}`;
-    //console.log(`audio${note}`);
+    //console.log(`audio${note}`);I Like Turtles
     const audio = document.getElementById(audioId);
     audio.pause();
     audio.currentTime = 0;
